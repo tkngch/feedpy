@@ -1,0 +1,8 @@
+[Planet Python]
+url = http://planet.python.org/rss20.xml
+tag = python
+
+[Archlinux]
+url = http://www.archlinux.org/feeds/news/
+tag = arch
+

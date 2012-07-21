@@ -1,0 +1,23 @@
+
+body{
+    font-family: 'Georgia', serif;
+    margin:auto; 
+    width:70%; 
+    margin-top:0px;
+    background-color:#cdcdcd;
+}
+
+#sidebar {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 15em;
+}
+
+#content {
+    position: absolute;
+    top: 100px;
+    left: 15em;
+}
+
+

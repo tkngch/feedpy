@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+          <title>{{title}}</title>
+
+          <link type="text/css" rel="stylesheet" media="all" href="{{url_for('static', filename='css/style.css')}}" />
+
+    </head>
+
+    <body>
+
+        <div id="page" class="clearfloat">
+            <h1> {{title}} </h1>
+
+            <div id="content" class="content">
+                {% block content %}{% endblock %}
+            </div>
+
+            <div id="sidebar" class="sidebar">
+                {% block sidebar %}{% endblock %}
+            </div>
+
+        </div>
+
+    </body>
+    {% block after_body %}{% endblock %}
+</html>

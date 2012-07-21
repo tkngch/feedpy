@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for entry in entries %}
+
+{% if dates.has_key(entry) %}
+{% if loop.index > 1 %} <br /> {% endif %}
+<em>{{ dates[entry].strftime("%a %d %B %Y") }}</em>
+{% endif %}
+
+<div>
+    <a href="{{entry.home_url}}">[{{entry.source}}]</a>
+    <a href="{{entry.url}}">{{entry.title}}</a>
+</div>
+
+{% endfor %}
+<br />
+<br />
+<br />
+{% endblock %}
+
+
+{% block sidebar %}
+{% for tag in tags %}
+<li>
+    <a href="{{url_for('tagged_page', tag=tag)}}">{{tag}}</a>
+</li>
+<br />
+{% endfor %}
+{% endblock %}
+
+
+
