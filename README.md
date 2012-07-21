@@ -1,5 +1,6 @@
+======
 feedpy
-------
+======
 
 USAGE
 =====
@@ -16,7 +17,7 @@ containing 'feedpy.conf' and 'subscription' in $XDG\_CONFIG\_HOME (often
 
 OPTIONS
 =======
-optional arguments:
+optional arguments::
     -h, --help  show this help message and exit
     --version   show program's version number and exit
     --crawl     update the RSS feeds
