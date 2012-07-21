@@ -17,9 +17,10 @@ containing 'feedpy.conf' and 'subscription' in $XDG\_CONFIG\_HOME (often
 OPTIONS
 =======
 optional arguments:
-  -h, --help  show this help message and exit
-  --version   show program's version number and exit
-  --crawl     update the RSS feeds
-  --build     build static pages
-  --serve     crawl and build
+    -h, --help  show this help message and exit
+    --version   show program's version number and exit
+    --crawl     update the RSS feeds
+    --build     build static pages
+    --serve     crawl and build
+
 
